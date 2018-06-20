@@ -1,0 +1,187 @@
+body {
+  min-height: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: linear-gradient(
+      to bottom right,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 168, 0, 0.6)
+    ),
+    url("../images/office_bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 600px;
+}
+
+.navbar {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 180px;
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 138, 0);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.scroll-down i {
+  border: solid Orange;
+  border-width: 0px 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+@media screen and (max-width: 1440px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 160px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 170px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 80px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.arrow {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  padding: 5px;
+}
+
+.margin-space {
+  margin-top: 100px;
+}
+
+.dots {
+  font-size: 12px;
+}
+
+.opportunity {
+  width: 300px;
+}
+
+.card-border {
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-button button {
+  color: white;
+  transition: 0.5s;
+  background: rgb(254, 167, 0);
+  margin-top: 4px;
+  padding: 13px;
+  padding-right: 70px;
+  padding-left: 70px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.card-button button:hover {
+  color: white;
+  transition: 0.5s;
+  background: rgb(254, 206, 0);
+  margin-top: 4px;
+  padding: 13px;
+  padding-right: 70px;
+  padding-left: 70px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .card-content {
+    padding: 20px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card-content {
+    display: block;
+  }
+  .card-content div {
+    width: 250px;
+  }
+  .card-content button {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-content {
+    display: block;
+  }
+  .card-content div {
+    width: 250px;
+  }
+  .card-content button {
+    margin-bottom: 10px;
+  }
+}
+
+.fa-heart {
+  color: red;
+}
