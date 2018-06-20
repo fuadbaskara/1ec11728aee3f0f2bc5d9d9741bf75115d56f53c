@@ -1,0 +1,215 @@
+@media screen and (max-width: 1440px) {
+  .navbar {
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    position: relative;
+    display: none;
+    font-size: 70px;
+  }
+
+  .collapse-button div {
+    color: white;
+  }
+
+  .submenu {
+    position: absolute;
+  }
+
+  .submenu-color {
+    color: white;
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: block;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-link {
+    display: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    display: block;
+    font-size: 70px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-link {
+    display: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    display: block;
+    font-size: 70px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-link {
+    display: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    display: block;
+    font-size: 70px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 160px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-down button {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .scroll-down button {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .scroll-down button {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .scroll-down button {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .scroll-down button {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .card-content {
+    padding: 20px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card-content {
+    display: block;
+  }
+  .card-content div {
+    width: 250px;
+  }
+  .card-content button {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-content {
+    display: block;
+  }
+  .card-content div {
+    width: 250px;
+  }
+  .card-content button {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-icon {
+  text-decoration: none;
+}
+
+.footer-spacing {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+@media screen and (max-width: 320px) {
+  .footer-align {
+    text-align: center;
+  }
+
+  .footer-icon {
+    text-align: center;
+  }
+  .footer-share-section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-align {
+    text-align: center;
+  }
+
+  .footer-icon {
+    text-align: center;
+  }
+}

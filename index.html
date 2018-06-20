@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Kulina Preliminary Test</title>
   </head>
   <body>
@@ -17,13 +18,24 @@
           <img src="./images/kulina-logo-white.svg">
         </a>
       </div>
-      <div>
+      <div class="navbar-link">
         <a href="">About Us</a> <a href=""><b>Careers</b></a><a href="">Internship</a>
       </div>
-      <div class="btn collapse-button">
-        &#8801;
-      </div>
+      <a class="collapse-button" data-toggle="collapse" href="#collapse-link">
+        <div >
+          &#8801;
+        </div>
+      </a>
       </nav>
+      <div class="collapse submenu" id="collapse-link">
+        <p>
+          <ul class="submenu-color">
+            <li class="submenu-color">About Us</li>
+            <li class="submenu-color"><b>Careers</b></li>
+            <li class="submenu-color">Internship</li>
+          </ul>
+        </p>
+      </div>
       <div class="title">
         <h1>
           <b>
@@ -69,7 +81,7 @@
             <div class="card-content">
               <div>
                 <h4><b>Frontend Developer</b></h4>
-                <p class="text-secondary padding-none">Engineer <span class="dots">·</span> Fulltime <span class="dots">·</span> Yogyakarta</p>
+                <p class="text-secondary padding-none">Engineer <span class="dots">&#9679;</span> Fulltime <span class="dots">&#9679;</span> Yogyakarta</p>
               </div>
               <div class="card-button">
                 <button>Apply</button>
@@ -163,7 +175,7 @@
     <hr class="margin-space">
     <div class="row footer-spacing">
       <div class="col-xs-12 col-md-12 col-lg-7 col-xl-7">
-        <p class="text-secondary">
+        <p class="footer-align text-secondary">
           <span> Made with </span>
           <span class="fa fa-heart"></span>
           <span> from Indonesia. </span>
@@ -172,20 +184,24 @@
       </div>
       <div class="col-xs-12 col-md-12 col-lg-5 col-xl-5">
         <div class="d-flex justify-content-end text-secondary">
-          <span class="mr-3 pt-1">Follow kami</span>
-          <div>
-            <a class="footer-icon" href="">
-              <img class="mr-2" src="./images/facebook.png">
-            </a>
-            <a class="footer-icon" href="">
-              <img class="mr-2" src="./images/twitter.png">
-            </a>
-            <a class="footer-icon" href="">
-              <img class="mr-2" src="./images/instagram.png">
-            </a>
-            <a class="footer-icon" href="">
-              <img class="mr-2" src="./images/line.png">
-            </a>
+          <div class="footer-share-section">
+            <div class="d-flex justify-content-between">
+              <span class=" mr-3 pt-1">Follow kami</span>
+            <div>
+              <a class="footer-icon" href="">
+                <img class="mr-2" src="./images/facebook.png">
+              </a>
+              <a class="footer-icon" href="">
+                <img class="mr-2" src="./images/twitter.png">
+              </a>
+              <a class="footer-icon" href="">
+                <img class="mr-2" src="./images/instagram.png">
+              </a>
+              <a class="footer-icon" href="">
+                <img class="mr-2" src="./images/line.png">
+              </a>
+            </div>
+          </div>
           </div>
         </div>
       </div>
