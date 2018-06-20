@@ -1,9 +1,5 @@
 body {
-  min-height: 1440px;
-}
-
-a {
-  text-decoration: none;
+  font-family: "Roboto";
 }
 
 .header {
@@ -17,17 +13,52 @@ a {
   height: 600px;
 }
 
-.navbar {
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
+@media screen and (max-width: 1440px) {
+  .navbar {
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    display: none;
+    font-size: 70px;
+    color: white;
+  }
 }
 
-.navbar a {
-  text-decoration: none;
-  color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: block;
+    height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    display: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .collapse-button {
+    display: block;
+    font-size: 70px;
+    color: white;
+  }
 }
 
 .title {
@@ -83,6 +114,34 @@ a {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 100px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .scroll-down button {
+    background: white;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 130px;
+    border: none;
+    margin-top: 80px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .scroll-down button {
     background: white;
@@ -109,6 +168,7 @@ a {
 
 .dots {
   font-size: 12px;
+  padding-bottom: 10px;
 }
 
 .opportunity {
@@ -180,6 +240,15 @@ a {
   .card-content button {
     margin-bottom: 10px;
   }
+}
+
+.footer-icon {
+  text-decoration: none;
+}
+
+.footer-spacing {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .fa-heart {
